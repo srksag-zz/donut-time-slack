@@ -1,0 +1,21 @@
+{
+  "name": "donut-time-slack",
+  "version": "1.0.0",
+  "description": "Use donuts to share praise and appreciation with your team. There's no I in donut",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizlove/donut-time-slack.git"
+  },
+  "author": "Luis Flores, Elizabeth Lovero, Ravi Sagiraji",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "botkit": "^0.6.11",
+    "express": "^4.16.2"
+  }
+}
